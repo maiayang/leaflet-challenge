@@ -106,8 +106,7 @@ function createMarkers(response) {
     .bindPopup(`<h3> ${earthquakeData[i].properties.place} <br> 
         <h5> ${earthquakeDateTime.toDateString()} ${earthquakeDateTime.toTimeString()} <br>
         Magnitude: ${earthquakeData[i].properties.mag} <br>
-        Depth: ${earthquakeDepth}
-        </h5>`);
+        Depth: ${earthquakeDepth} </h5>`);
     earthquakes.push(newMarker);
   }
     
